@@ -196,7 +196,7 @@ font-weight: bold ;}
 
 /* Hero Section */
 
-.Hero_section{background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.425)), url(/Homepage/Images/Hero\ Image.jpg);
+.Hero_section{background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.425)), url('Image.jpg');
 background-repeat: repeat;
 background-position: center;
 height: 70vh;
@@ -698,7 +698,7 @@ background-color: none;
 /* Banner */
 
 
-.banner{background-image: url(/Homepage/Images/Banner.jpg);
+.banner{background-image: url('Banner.jpg');
 background-repeat: no-repeat;
 background-position: center;
 width: 80%;

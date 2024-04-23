@@ -1,0 +1,866 @@
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Noto sans', sans-serif;
+list-style: none;
+text-decoration: none;
+font-family: 'Noto sans', sans-serif;
+/* color: rgb(0, 0, 0);*/
+    /* border: 1px solid red; */
+}
+
+.niconne-regular {
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+a{text-decoration: none;
+color: black;}
+
+h2{font-size: 50px;}
+
+p{font-size: 25px;}
+
+.flex { display: flex;
+    align-items: center;}
+
+.grid {display: grid;}
+
+.bg_text{ text-align: left;
+    font-size: 10rem;
+    letter-spacing: 0px;
+    color: white;
+    background-color: white;
+    opacity: 100%;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #d3dbdd;
+    z-index: index 1;
+    height: 18vh;
+    padding:  0vw;
+} 
+
+.underline{border: 2px solid #08394A;
+width: min-content 10%; max-width: 25%;
+background-color: #08394A;
+padding: .05%;}
+
+.View_all-Services{width: 200px; /* Set the width of the button */
+    height: 45px; /* Set the height of the button */
+    font-size: 18px; /* Set the font size of the button text */
+    padding: 5px 20px; /* Set the padding of the button */
+    border-radius: 10px; /* Set the border radius of the button */
+    background-color: #08394A; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    border: none; /* Remove the border of the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */}
+
+button{width: auto; /* Set the width of the button */
+    height: 45px; /* Set the height of the button */
+    font-size: 18px; /* Set the font size of the button text */
+    padding: 5px 20px; /* Set the padding of the button */
+    border-radius: 10px; /* Set the border radius of the button */
+    background-color: #08394A; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    border: none; /* Remove the border of the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */}
+
+.footer_suB_text{font-size: 20px;}
+
+.footer_main_text{font-size: 40px;}
+
+h2 {font-size: 4rem;}
+
+p {font-size: 1.75rem;}
+
+/* Navbar */
+
+.nav{height: 7vh;
+    padding: 0 10vw;
+    justify-content: space-between;
+    }
+    
+    
+.Links{height: 100%;
+width: 50%;}
+
+.Nav_links{list-style: none;
+    justify-content:space-between;
+    height: 100%;}
+
+.Second_Nav_Links{width: 60%;}
+
+.logo{width: 125px;
+height: 52px;
+border-radius: 6px;}
+
+.consult{width: auto; /* Set the width of the button */
+height: 45px; /* Set the height of the button */
+/* Set the font size of the button text */
+padding: 5px 20px; /* Set the padding of the button */
+border-radius: 50px; /* Set the border radius of the button */
+background-color: #08394A; /* Set the background color of the button */
+color: white; /* Set the text color of the button */
+border: none; /* Remove the border of the button */
+cursor: pointer; /* Change the cursor to a pointer when hovering over the button */}
+
+.sub_menu_wrp, .Corporate_sub_menu_wrp, .Residential_sub_menu_wrp 
+,.Design_sub_menu_wrp{
+    display:  none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+    max-height: 150px;
+    width: 10%;
+    padding: 15px 10px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 10px;
+}
+
+
+
+.sub_menu_wrp.active, .Corporate_sub_menu_wrp.active, .Residential_sub_menu_wrp.active , .Design_sub_menu_wrp {
+    display: block;
+}
+
+.sub_menu hr, .Corporate_sub_menu hr, .Residential_sub_menu hr , .Design_sub_menu hr{
+    border: 1px solid rgb(211, 211, 211);
+    height: 1px;
+    width: 100%;
+    margin: 7% 0;
+}
+
+.Sub_menu_link:hover, .Corporate_Sub_menu_link:hover, .Residential_Sub_menu_link:hover , .Design_menu_link:hover{
+    font-weight: bold;
+}
+
+.subsub {
+    display:none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+    max-height: 150px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    left: 60%;
+    top: 1%;
+    z-index: 100;
+}
+
+.subsub.active {
+    display: block;}
+
+.subsub hr{
+    border: 1px solid rgb(231, 231, 231);
+    height: 1px;
+    width: 100%;
+    margin: 7% 0;
+}
+
+.subsub_menu:hover{display:block;
+font-weight: bold ;}
+
+.Design_sub_menu_wrp {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Design_Sub_menu_link:hover {
+   font-weight: bolder;
+}
+
+
+.Design_sub_menu_wrp.active {
+    display: block;border-radius: 5px;
+}
+
+.Design_sub_menu {
+    margin-top: 5px;
+}
+
+
+
+
+/* Hero Section */
+
+.Hero_section{background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.425)), url(/Homepage/Images/Hero\ Image.jpg);
+background-repeat: repeat;
+background-position: center;
+height: 70vh;
+align-content: flex-end;
+align-items: center;
+text-align: center;
+color: white;
+padding: 0 0 7% 0;
+}
+
+/* Sub Hero */
+
+        /* Slider container */
+        .sub_hero_slider-container {
+            position: relative;
+            width: 100%; /* Adjust width as needed */
+            margin: 0 auto;
+            overflow: hidden;
+            height: 50vh;
+        }
+
+        /* Slider wrapper */
+        .sub_hero_slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 90%;
+        }
+
+        .sub_hero_slider-wrapper img {
+            width: 50px;
+        }
+
+        /* Individual slide */
+        .sub_hero_slider-slide {
+            min-width: 100%; /* Ensure each slide takes up full width */
+            flex: 0 0 auto;
+        }
+
+        /* Slide image */
+        .sub_hero_slider-slide img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Previous and next buttons */
+        .sub_hero_prev, .sub_hero_next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            color: #fff;
+            padding: 10px;
+            border-radius:0;
+            border: none;
+            outline: none;
+            transition: background 0.3s;
+        }
+
+        .sub_hero_prev:hover, .sub_hero_next:hover {
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .sub_hero_prev {
+            left: 0;
+        }
+
+        .sub_hero_next {
+            right: 0;
+        }
+
+        /* Image previews */
+        .sub_hero_preview {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 30px; /* Adjust preview size */
+            height: 30px; /* Adjust preview size */
+            border-radius: 0px;
+            overflow: hidden;
+            z-index: 1;
+            border: 20px solid white; /* Add border */
+            backdrop-filter: blur(10px); /* Apply backdrop filter to blur background */
+        }
+
+        .sub_hero_preview img {
+            width: 100%;
+            height: 50vh;
+        }
+
+        .sub_hero_prev-preview {
+            left: 0px;
+            height: 50vh;
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sub_hero_next-preview {
+            right: 0px;
+            height: 50vh;
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+
+
+/* Specification */
+
+.SPECIFICATIONS_Sections{padding: 0vh 10vw;}
+
+.Spex{justify-content: space-between;}
+
+.SPECIFICATIONS_Sections img{width: 100%;}
+
+/* Accordion */
+
+.specification_ac-container {
+    display: flex;
+    height: 50vh;
+    margin: 0 0;
+}
+
+.specification_ac-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    height: 50vh;
+}
+
+.specification_ac-gap {
+    width: 2%;
+}
+
+.specification_ac-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.specification_ac-accordion-container {
+    flex: 1;
+    padding: 0px;
+    background: #fff;
+}
+
+#specification_ac-accordion {
+    width: 100%;
+    height: 100%;
+}
+
+#specification_ac-accordion li {
+    list-style: none;
+    margin-bottom: 0px;
+    background: #f4f4f4;
+    padding: 0 2px ;
+    border-radius: 4px;
+}
+
+#specification_ac-accordion li label {
+    padding: 10px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: niconne;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #0f5a74;
+}
+
+#specification_ac-accordion label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: navy;
+}
+
+#specification_ac-accordion label + input[type="radio"] {
+    display: none;
+}
+
+#specification_ac-accordion .content {
+    padding: 5px 30px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#seprator {
+    border: 1px solid rgb(219, 219, 219);
+}
+
+#specification_ac-accordion label + input[type="radio"]:checked + .content {
+    max-height: 400px;
+}
+
+.specification_ac-header {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom:0px;
+    background: #083a4b;
+    color: white;
+    padding: 30px;
+    border-radius: 25px 25px 0 0 ;
+}
+
+#specification_ac-fifth {
+    border-radius: 55px;
+}
+
+/* Consultations */
+
+.C_1{padding: 0 10v;}
+
+.Consultations_Sections{ padding: 0vh 10vw;}
+
+.Consultations_buttons{height: 100px;}
+
+.Consultations_buttons_filler{width: 12.5vw;}
+
+.Consultations_buttons_2{width: 32.5vw;
+justify-content: space-between;}
+
+.b{height: 60px;
+width: 300px;
+border-radius: 15px;}
+
+
+/* .flex { display: flex; } */
+.container { 
+    display: flex; 
+    height: 50vh;
+}
+
+.container-a {
+    background-color: #F7F6F7;
+    padding: 0px;
+    border-radius: 20px;
+    height: 30vh;
+    width: 15%;
+    margin: 10px 0;
+}
+
+.container-b { 
+    flex: 70%; 
+    padding: 0px; 
+    height: 50vh;
+    justify-content: right;
+   
+}
+
+.button {
+    display: block;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #F7F6F7;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #08394A;
+    font-family: niconne;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 25px;
+}   
+
+.button:hover {
+    background-color: #08394A;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+.image-container1 {
+    display: none; /* Hide all initially */
+    flex-direction: column; /* Display content vertically */
+    padding: 0px; /* Adjust padding */
+    height: 70vh; /* Adjust height of container 1 */}
+
+    .image-container1 img {
+       
+        height: 100%; /* Adjust height of container 1 */}
+
+.image-container1.active { 
+    display: flex;
+    width: 50%;
+    height: 50vh; /* Adjust height of container */
+} 
+
+.image-container1 h2,
+.image-container1 h4,
+.image-container1 p { 
+    display: none; /* Hide all initially */
+}
+
+.image-container1.active h2 {
+    height: 10vh;
+}
+
+.image-container1.active h4,
+.image-container1.active p { 
+    display: block; /* Show only when active */
+}
+
+.image {
+    display: none;
+    max-width: 100%;
+    height: 100vh; /* Adjust height of images in container 1 */
+   
+}
+
+.image.active { 
+    display: block;
+    height: 50vh; /* Adjust height of images in container 2 */
+    margin: 0 0 0 0px;
+}
+
+.image.active_1{ 
+    display: block;
+    height: 20vh; /* Adjust height of images in container 2 */
+}
+
+.image.active_1 img{ 
+    display: block;
+    height: 20vh; /* Adjust height of images in container 2 */
+}
+
+
+.image-container1 h2 { 
+    height: 5vh; 
+}
+
+.image-container1 h4 { 
+    height: 5vh; 
+}
+
+.image-container1 p { 
+    height: 10vh; 
+    font-size: 15px;
+}
+
+.image-container1 img { 
+    height: 5vh; /* Adjust height of images in container 1 */
+}
+
+.image-container2 img { 
+    height: 10vh; /* Adjust height of images in container 2 */
+    padding: 0px 0px 0px 30px;
+}
+
+#c1imgsize{height: 25vh;}
+
+button:hover{color: #08394A;
+background-color: white;
+border: 2px solid #08394A;}
+
+/* Why Choose Us */
+
+.Why_Choose_Us_Sections{ padding: 0vh 10vw;
+height: 70vh;}
+
+
+
+.Why_Choose_Us_Sections img {width: 100%;}
+
+
+/* icon Slider */
+
+
+.icon_slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ensure container does not exceed screen width */
+    height: 35vh;
+    margin: 20px auto;
+    overflow: hidden;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    padding: 0px; /* Add padding */
+    background-color: rgb(255, 255, 255); /* Set background color */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width:100%; /* Set width */
+    height: 265px; /* Set height */
+    margin-right: 0px; /* Add margin */
+background-color: #08394A;
+margin: 10px;
+border-radius: 25px;
+}
+
+
+.slide img {
+    display: block;
+    margin: 25px auto 0; /* Align image horizontally to center and add margin-top */
+    width: 110px; /* Decrease width by 10% */
+    height: 110px; /* Decrease height by 10% */
+    object-fit: cover; /* Ensure the image fills the container */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide any overflow */
+    background-color: rgb(255, 255, 255); /* Adjust color as needed */
+    transform: scale(0.8); /* Decrease size by 10% */
+}
+
+
+.slide p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0px; /* Adjust the padding-top value to move the text down */
+    padding: 10%;
+}
+
+
+
+
+
+
+/* Circle styles */
+.circle {
+    position: absolute;
+    top: 50%; /* Vertically center the circle */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the circle horizontally and vertically */
+    width: 120px;
+    height: 120px;
+    background-color: red; /* Adjust color as needed */
+    border-radius: 5px solid    red;
+    padding: 2% 0;
+}
+
+
+.slide:hover {
+    background-color: white;
+    border: 2px solid #08394A;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.slide:hover p {
+    color: #08394A;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.slide:hover img {
+    transform: scale(1.3); /* Increase size by 20% on hover */
+}
+
+/* Previous and next buttons */
+
+.prev, .next {
+    position: absolute;
+    top: 50%; /* Position vertically at the middle */
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    color: #ffffff; /* Change arrow color */
+    padding: 10px;
+    border-radius: 0; /* Remove border radius */
+    border: none;
+    background-color: transparent; /* Remove background color */
+    z-index: 1; /* Ensure buttons are above other content */
+}
+
+/* Positioning for previous button */
+.prev {
+    left: -30px; /* Move left outside the main container */
+}
+
+/* Positioning for next button */
+.next {
+    right: -30px; /* Move right outside the main container */
+}
+
+.prev:hover , .next:hover {border: none;
+color: black;
+background-color: none;
+}
+
+/* Banner */
+
+
+.banner{background-image: url(/Homepage/Images/Banner.jpg);
+background-repeat: no-repeat;
+background-position: center;
+width: 80%;
+height: 250px;
+margin: 0 10vw;
+border-radius: 30px;
+color: white;
+padding: 2.5% 0 0 50%;
+justify-content: center;
+align-items: center;
+align-items: center;}
+
+.banner h2 {font-size:30px;}
+
+.banner a {font-size:20px;
+color: white;}
+
+.banner:hover a{color: aqua;}
+
+/*Review */
+
+.REVIEW_Sections{ padding: 0vh 10vw;}
+
+.REVIEW_Sections{padding: 0vh 10vw;}
+
+.REVIEW{justify-content: space-between;}
+
+
+
+/* Video */
+
+.video-slider-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2vh 10vw;
+    height: 400px;
+}
+
+.demo-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.video-slider {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.videos {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.video_width{
+    width: 25%;
+    height: 300px;
+    border: 0x solid black;
+    margin: 20px;
+    border-radius: 35px;
+    padding: 15px;
+    box-shadow: 0 0px 2px rgba(158, 158, 158, 0.5); /* Add shadow */    
+
+}
+
+
+
+iframe {
+    border-radius: 25px;
+    width: 300px;
+    border: 5px solid white;
+    height: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    
+
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(141, 141, 141);
+    background-color: whi;
+
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+    z-index: 1;
+}
+
+.prev{left: -2px;}
+
+.next{right: -1px;}
+
+/* Footer */
+
+.footer{height: 30vh;
+    background-color: #08394A;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;align-self: center;
+    text-align: left;
+    padding: 0vh 10vw;
+    }
+    
+    .Logo {width: 40%;height: 60%;}
+    
+    .Quick, .Contact{width: 28%;height: 50%;}
+    
+    .Quick{margin: 0 10%;
+    justify-content: left;}
+    
+    .quick_conteiner{justify-content:left;
+    width: 50%}
+    
+    .Q_2 {padding: 0 20%;}
+    
+    /* after footer */
+    
+    .afterfooter{background-color: #08394A;
+    color: white;
+    padding: 5vh 10vw;
+    height: 5vh;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    
+    .afterfoot3 {width: 15%;
+        justify-content: right;}
+    
+    .afterfoot2{width: 60%;}
+    
+    .afterfoot1{width: 20%;
+        justify-content: space-between;
+    }
+    
+    .footer{background-color: #08394A;}
+    
+    .copyright{padding: 0 10vw;}
+    
+    .copy_1{width: 30%;}
+    .copy_2{width: 30%;}
+    .copy_3{width: 40%;
+    justify-content: space-between;}
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+

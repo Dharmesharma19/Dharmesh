@@ -185,7 +185,7 @@ font-weight: bold ;}
 #first_image{height: 353px;
 width: 100%;} */
 
-.about_Section_banner{background-image:linear-gradient(to top, rgba(0, 0, 0, 0.705), rgba(0,0,0,0)), url(/Chair\ bg.jpg) ;
+.about_Section_banner{background-image:linear-gradient(to top, rgba(0, 0, 0, 0.705), rgba(0,0,0,0)), URL('bg.jpg') ;
 background-repeat: no-repeat;
 height: 50vh;
 background-position: 20%;

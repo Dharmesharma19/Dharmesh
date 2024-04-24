@@ -428,5 +428,17 @@ window.onload = function() {
     showImages(1);
 };
 
+document.addEventListener('DOMContentLoaded', function() {
+    const retailLink = document.querySelector('.Retail');
+    const retailURL = retailLink.querySelector('a').href;
+
+    // Open retail page in new tab on click
+    retailLink.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent the default link behavior
+        window.open(retailURL, '_blank');
+    });
+});
+
+
 
  

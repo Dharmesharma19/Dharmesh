@@ -171,7 +171,7 @@ color: #08394A;}
 
 /* Hero Section */
 
-.Retail_Section_banner{background-image:linear-gradient(to top, rgba(0, 0, 0, 0.705), rgba(0,0,0,0)), url(bg.jpg) ;
+.Retail_Section_banner{background-image:linear-gradient(to top, rgba(0, 0, 0, 0.705), rgba(0,0,0,0)), url(/Chair\ bg.jpg) ;
     background-repeat: no-repeat;
     height: 50vh;
     background-position: 20%;

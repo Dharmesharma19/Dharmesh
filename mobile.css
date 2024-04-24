@@ -1,0 +1,94 @@
+/* Add media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    
+    
+   
+
+    *{padding: 0px;
+    margin: 0px;
+    }
+
+    .nav{height: 35px;
+    align-content: center;
+    align-items: center;
+    padding: 0 20px;}
+
+    .bg_text{font-size: 20px;}
+
+    h2{font-size: 20px;}
+
+    p{font-size: 10px  ;}
+
+    a{font-size: 10px;}
+
+    .Second_Nav_Links{width: 80%;}
+
+
+
+    .consult{height: 2.5vh;
+    width: 15vw;
+    font-size: .5rem;
+    padding: 0;}
+
+    .logo{height: 25px;
+    width: auto;
+    border-radius: 5px;}
+
+    span img{ display: none;}
+
+    .view_all-Services{height: 5px;
+    font-size: 5px;}
+
+    .bg_text{font-size: 75px;}
+
+    .bg_text_Retail{font-size: 75px;}
+
+
+
+  
+
+
+.hero{
+    box-sizing: border-box;
+    background-image: url(/Homepage/Images/Hero\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.hero img{
+    display: none;
+}
+
+.hero .Heading{
+    position: static;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    
+
+}
+
+.hero .Heading h2{
+  text-align: center;
+  font-size: 28px;;
+}
+
+.Book{
+    width: auto;
+    display: inline;
+    align-self: center;
+    margin: auto;
+    padding: 10px 25px;
+    height: auto;
+    margin-top: 10px;
+}
+
+}
+

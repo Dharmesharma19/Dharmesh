@@ -280,11 +280,11 @@ const accordionLabels = document.querySelectorAll('#specification_ac-accordion l
 
 // Define image URLs corresponding to each accordion label
 const imageUrls = {
-    'specification_ac-first': '/001.png',
-    'specification_ac-second': '/002.png',
-    'specification_ac-third': '/003.png',
-    'specification_ac-fourth': '/004.png',
-    'specification_ac-fifth': '/2nd Section.png'
+    'specification_ac-first': '001.png',
+    'specification_ac-second': '002.png',
+    'specification_ac-third': '003.png',
+    'specification_ac-fourth': '004.png',
+    'specification_ac-fifth': '2nd Section.png'
 };
 
 // Set the default image to appear on page load
@@ -303,11 +303,6 @@ accordionLabels.forEach(label => {
 
 
 //  2nd Accordion
-
-
-
-
-
      // Image & content change on button
     
      function showImages(index) {

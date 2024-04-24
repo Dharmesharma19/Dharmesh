@@ -172,10 +172,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Open retail page in new tab on click
-    RetailLink.addEventListener('click', function (event) {
+    retailLink.addEventListener('click', function (event) {
         event.preventDefault(); // Prevent the default link behavior
-        const RetailURL = RetailLink.querySelector('a').href;
-        window.open(RetailURL, '_blank');
+        const retailURL = retailLink.querySelector('a').href;
+        window.open(retailURL, '_blank');
     });
 });
 

@@ -264,8 +264,11 @@ padding: 2% 0;}
 
 
 /* Maps */
+.map{height: 60vh;
+    width: 100%;
+}
 
-.map img{height: 60vh;
+.map iframe{height: 60vh;
     width: 100%;
 }
 
